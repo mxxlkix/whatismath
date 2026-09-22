@@ -735,3 +735,9 @@ main {
 .chat-toolbar strong { display: block; font-size: 1.05rem; letter-spacing: -0.02em; }
 .chat-toolbar span:not(.chat-status) { display: block; margin-top: 4px; color: var(--muted); font-size: 0.78rem; }
 .chat-status { display: inline-flex; align-items: center; gap: 7px; col
+
+
+              .mathmate-panel { padding: 0; overflow: hidden; background: linear-gradient(145deg, rgba(20, 30, 52, 0.96), rgba(10, 16, 29, 0.98)); border-color: rgba(126, 242, 211, 0.28); }
+              .mathmate-panel .chat-window { padding: 22px 20px 20px; min-height: 230px; }
+              .mathmate-panel .chat-form { margin: 0 20px; }
+              .mathmate-panel .chat-note { margin: 14px 20px 20px; }
