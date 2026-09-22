@@ -1,0 +1,9 @@
+{
+  "name": "what-if-math",
+  "version": "1.0.0",
+  "private": true,
+  "description": "What If Math with a secure OpenAI-powered math tutor",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
