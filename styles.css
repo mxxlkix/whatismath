@@ -741,3 +741,9 @@ main {
               .mathmate-panel .chat-window { padding: 22px 20px 20px; min-height: 230px; }
               .mathmate-panel .chat-form { margin: 0 20px; }
               .mathmate-panel .chat-note { margin: 14px 20px 20px; }
+
+
+.beta-banner { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 0 auto; padding: 10px 16px; color: #17110a; background: linear-gradient(90deg, #f9b96d, #ffe0a8, #f9b96d); border-bottom: 1px solid rgba(249, 185, 109, 0.65); box-shadow: 0 8px 24px rgba(249, 185, 109, 0.14); font-family: "JetBrains Mono", monospace; }
+              .beta-banner span { font-weight: 800; letter-spacing: 0.1em; font-size: 0.78rem; }
+              .beta-banner small { font-family: "Space Grotesk", sans-serif; font-size: 0.82rem; opacity: 0.78; }
+              @media (max-width: 640px) { .beta-banner { align-items: flex-start; flex-direction: column; gap: 2px; text-align: center; } .beta-banner small { font-size: 0.75rem; } }
