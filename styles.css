@@ -727,3 +727,11 @@ main {
     flex-direction: column;
   }
 }
+
+
+/* MathMate refresh */
+.mathmate-shell { padding: 0; overflow: hidden; background: linear-gradient(145deg, rgba(20, 30, 52, 0.96), rgba(10, 16, 29, 0.98)); border-color: rgba(126, 242, 211, 0.28); }
+.chat-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 20px; border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, 0.025); }
+.chat-toolbar strong { display: block; font-size: 1.05rem; letter-spacing: -0.02em; }
+.chat-toolbar span:not(.chat-status) { display: block; margin-top: 4px; color: var(--muted); font-size: 0.78rem; }
+.chat-status { display: inline-flex; align-items: center; gap: 7px; col
